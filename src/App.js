@@ -2,6 +2,7 @@ import "./App.css";
 import Nav from "./components/Navbar/Nav";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./components/HomePage/HomePage";
+import Orders from "./components/Orders/Orders";
 
 function App() {
   return (
@@ -11,8 +12,8 @@ function App() {
           <Nav />
           <Routes>
             <Route path="/" element={<HomePage />} />
-            {/* <Route path="/leaderboard" element={<Leaderboard />} />
-            <Route path="/dashboard" element={<Dashboard />} /> */}
+            <Route path="/orders" element={<Orders />} />
+            {/* <Route path="/dashboard" element={<Dashboard />} /> */}
           </Routes>
         </Router>
       </main>
