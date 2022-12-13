@@ -27,10 +27,10 @@ const Nav = () => {
         <Link to="/" onClick={() => setActive(!active)}>
           ABOUT
         </Link>
-        {/* <Link to="/dashboard" onClick={() => setActive(!active)}>
-          Dashboard
+        <Link to="/orders" onClick={() => setActive(!active)}>
+          MAKE AN ORDER
         </Link>
-        <Link to="/leaderboard" onClick={() => setActive(!active)}>
+        {/* <Link to="/leaderboard" onClick={() => setActive(!active)}>
           Leaderboard
         </Link> */}
       </div>
