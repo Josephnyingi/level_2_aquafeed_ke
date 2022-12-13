@@ -28,7 +28,7 @@ const Nav = () => {
           ABOUT
         </Link>
         <Link to="/orders" onClick={() => setActive(!active)}>
-          MAKE AN ORDER
+          ORDER ONLINE
         </Link>
         <Link to="/contact" onClick={() => setActive(!active)}>
           CONTACT
