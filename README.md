@@ -9,10 +9,6 @@
 - Library and Framework : `React, Jest, React-test-renderer`
 - Technologies used : Github, Git, Gitflow and Linters
 
-## Live Demo
-
-- Here is a live demo [link](https://tools-hub-records.netlify.app/)
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
