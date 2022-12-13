@@ -30,9 +30,9 @@ const Nav = () => {
         <Link to="/orders" onClick={() => setActive(!active)}>
           MAKE AN ORDER
         </Link>
-        {/* <Link to="/leaderboard" onClick={() => setActive(!active)}>
-          Leaderboard
-        </Link> */}
+        <Link to="/contact" onClick={() => setActive(!active)}>
+          CONTACT
+        </Link>
       </div>
       <div className="nav-settings">
         <Button variant="primary" size="sm">
