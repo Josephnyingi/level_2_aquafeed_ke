@@ -2,11 +2,6 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* position: relative;
-  padding: 0.5rem 0;
-  min-width: 100%;
-  z-index: 999;
-  box-sizing: border-box; */
 }
 
 .stickyNav {
@@ -34,6 +29,7 @@ nav {
 .heading {
   font-size: 30px;
   font-weight: 550;
+  display: contents;
 }
 
 .icon {
@@ -59,11 +55,6 @@ nav {
 .nav-logo {
   width: 100px;
   height: 40px;
-}
-
-.nav-logo img {
-  height: 100%;
-  width: 100%;
 }
 
 @media (max-width: 768px) {

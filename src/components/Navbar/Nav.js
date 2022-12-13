@@ -25,7 +25,7 @@ const Nav = () => {
       </div>
       <div className={`nav-links ${active ? `nav-links-toggle` : ""}`}>
         <Link to="/" onClick={() => setActive(!active)}>
-          ABOUT THE COMPANY
+          ABOUT
         </Link>
         {/* <Link to="/dashboard" onClick={() => setActive(!active)}>
           Dashboard

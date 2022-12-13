@@ -1,4 +1,5 @@
 import child from "./child.jpg";
+import farmer from "./fish-feeding.jpeg";
 import "./HomePage.css";
 
 const HomePage = () => {
