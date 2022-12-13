@@ -2,11 +2,11 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  position: relative;
+  /* position: relative;
   padding: 0.5rem 0;
   min-width: 100%;
   z-index: 999;
-  box-sizing: border-box;
+  box-sizing: border-box; */
 }
 
 .stickyNav {
@@ -31,6 +31,11 @@ nav {
   cursor: pointer;
 }
 
+.heading {
+  font-size: 30px;
+  font-weight: 550;
+}
+
 .icon {
   font-size: 20px;
   cursor: pointer;
@@ -52,7 +57,7 @@ nav {
 }
 
 .nav-logo {
-  width: 200px;
+  width: 100px;
   height: 40px;
 }
 
@@ -88,9 +93,10 @@ nav {
   }
 
   .nav-logo {
-    width: 100px;
-    height: 30px;
+    width: 10px;
+    height: 10px;
   }
+
   .nav-links-toggle {
     top: 3rem;
   }
